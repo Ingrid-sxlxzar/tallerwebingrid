@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #036;
+    padding: 20px;
+}
+/*Cabecera*/
+header{
+    max-width: 1000px;
+    min-height: 130px;
+    background: #ccc;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+}
+#logo{
+    width: 320px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/*Menu horizontal*/
+#menu-h{
+    max-width: 1000px;
+    min-height: 50px;
+    background: #000;
+    margin: 0 auto;
+    justify-content: center;
+}
+#menu-h ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+#menu-h a{
+    color: #ccc;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: #000;
+    font-family: Arial;
+    font-size: 18px;
+}
+#menu-h a:hover{
+    background: #069;
+}
+#menu-h ul ul{
+    display: none;
+    position:absolute;
+}
+#menu-h ul li:hover ul{
+    display:block;
+}
+/*Banner*/
+#banner{
+    max-width: 1000px;
+    min-height: 20px;
+    background: #444;
+    margin: 0 auto;
+}
+/*gin*/
+#contenedor{
+    max-width: 1000px;
+    min-height: 700px;
+    background: #fff;
+    margin: 0 auto;
+    list-style: none;
+}
+/*menu vertical^*/
+#menu-v{
+    width: 300px;
+    min-height: 700px;
+    background: #098;
+    float: left;
+   
+}
+#menu-v ul{
+    list-style: none;
+}
+#menu-v a{
+    display: block;
+    color:#ccc;
+    background: #000;
+    padding:10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size:18px;
+}
+#contenido{
+    width: 700px;
+    min-height: 700px;
+    background: #fff;
+    float: right;
+}
+/*Pie de Pagina*/
+footer{
+    max-width: 1000px;
+    min-height: 300px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color:#fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing:border-box;
+    font-family: Arial;
+    font-size: 18 px;
+}
